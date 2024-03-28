@@ -1,0 +1,156 @@
+#html {
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+}
+
+body {
+  background-color: rgba(46, 39, 98, 0.9);
+  color: #fefefe;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #a89de2
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #fefefe;
+  text-decoration: none;
+}
+
+.list-item {
+  display: inline-block;
+  padding-right: 40px;
+}
+
+#head-img{
+  background-image:url("/img/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+  }
+  #head-text{
+    text-align: left;
+     padding: 100px 100px;
+    }
+    table {
+      width: 100%;
+      text-align: center;
+    }
+    table, td, th {
+      border: 1px solid #fefefe;
+    }
+
+table,
+td,
+th {
+  border: 1px solid #fefefe;
+}
+
+#contacts {
+  text-align: center;
+}
+}
+@media screen and (max-width: 640px){
+  html {
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  body {
+    background-color: #a89de2;;
+    color: #fefefe;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #a89de2
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  a {
+    color: #fefefe;
+    text-decoration: none;
+  }
+
+  .list-item {
+    display: inline-block;
+    padding-right: 40px;
+  }
+
+  #head-img {
+    background-image: url("/img/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+  }
+
+  #head-text {
+    text-align: left;
+    padding: 100px 100px;
+  }
+
+  table {
+    width: 100%;
+    text-align: center;
+  }
+
+  table,
+  td,
+  th {
+    border: 1px solid #fefefe;
+  }
+
+  #contacts {
+    text-align: center;
+  }
+}
